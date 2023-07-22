@@ -1,0 +1,15 @@
+export const FullScreenLoadingGrow = () => {
+    return (
+        <div class="preloader flex-column justify-content-center align-items-center">
+            <img class="animation__shake" src="https://adminlte.io/themes/v3/dist/img/AdminLTELogo.png" alt="AdminLTELogo" height="60" width="60" />
+        </div>
+    );
+}
+
+export const LimitScreenLoadingGrow = () => {
+    return (
+        <div class="preloader flex-column justify-content-center align-items-center" style={{position: "relative", height: "100%", minHeight: "20vh"}}>
+            <img class="animation__shake" src="https://adminlte.io/themes/v3/dist/img/AdminLTELogo.png" alt="AdminLTELogo" height="60" width="60" />
+        </div>
+    );
+}
